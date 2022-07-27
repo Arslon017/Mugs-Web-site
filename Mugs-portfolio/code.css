@@ -1,0 +1,971 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap");
+body {
+  font-family: Karla;
+}
+
+.container {
+  width: 1336px;
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 800px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .img {
+  width: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 550px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .nav .nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .nav .nav-ul .nav-li {
+  list-style: none;
+}
+
+.navbar .nav .nav-ul .nav-li .li-a {
+  text-decoration: none;
+  color: black;
+  margin-left: 12px;
+}
+
+.navbar .nav-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .nav-end .end {
+  margin-right: 12px;
+}
+
+.navbar .nav-end .end-a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.bir01 {
+  background-image: url("IMG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bir01 .bir {
+  width: 1000px;
+  margin: 0 auto;
+  height: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bir01 .bir .bir1 {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.bir01 .bir .bir1 .birp {
+  width: 180px;
+  margin: 0 auto;
+  color: white;
+}
+
+.bir01 .bir .bir1 .birh1 {
+  width: 300px;
+  font-size: 60px;
+  margin: 10px auto;
+  color: white;
+}
+
+.bir01 .bir .bir2 .bir2p {
+  color: white;
+}
+
+.bir01 .bir .birlink {
+  background-color: white;
+  width: 250px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bir01 .bir .birlink .birlink1 {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.ikki {
+  width: 800px;
+  margin: 80px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ikki .ikkitxt {
+  width: 500px;
+}
+
+.ikki .ikkitxt .ikkispan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ikki .ikki1txt {
+  width: 600px;
+}
+
+.ikki .ikki1txt .ikki1span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ikki .ikki2txt1 {
+  color: #A25F4B;
+}
+
+.uch {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.uch .uchtxt01 {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.uch .uchtxt01 .uchtxt03 {
+  font-size: 15px;
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.uch .uchs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 920px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.uch .uchs .uch1 {
+  margin-right: 12px;
+}
+
+.uch .uchs .uch1 .uchtxt {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.uch .uchs .uch1 .uchtxt .uchtxt2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.uch .uchs .uch2 .uch2txt {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.uch .uchs .uch2 .uch2txt .uch2text {
+  margin-top: -12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.uch .uchs .uch2 .uch2txt .uch2text .uch2txt2 {
+  font-size: 20px;
+  color: #A25F4B;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.uch .uchs .uch2 .uch2txt .uch2text .uch2txt3 {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: gray;
+          text-decoration-color: gray;
+}
+
+.tort {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.tort .torts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.tort .torts .tort1 .torttxt {
+  width: 200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tort .torts .tort1 .torttxt .torttext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -15px;
+}
+
+.tort .torts .tort1 .torttxt .torttext .torttext1 {
+  color: #A25F4B;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.tort .torts .tort1 .torttxt .torttext .torttext2 {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: gray;
+          text-decoration-color: gray;
+}
+
+.tort .torts .tort2 .tort2txt {
+  width: 200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tort .torts .tort2 .tort2txt .tort2text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -15px;
+}
+
+.tort .torts .tort2 .tort2txt .tort2text .tort2text1 {
+  color: #A25F4B;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.tort .torts .tort2 .tort2txt .tort2text .tort2text2 {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: gray;
+          text-decoration-color: gray;
+}
+
+.tort .torts .tort3 .tort3txt1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tort .torts .tort3 .tort3text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+.tort .torttexts {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.tort .torttexts .torttexts2 {
+  font-size: 15px;
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tort .beshs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.tort .beshs .besh1 .beshtxt {
+  width: 200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tort .beshs .besh1 .beshtxt .beshtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -15px;
+}
+
+.tort .beshs .besh1 .beshtxt .beshtext .beshtext2 {
+  font-size: 20px;
+}
+
+.tort .beshs .besh2 .besh2txt {
+  width: 200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tort .beshs .besh2 .besh2txt .besh2text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -15px;
+}
+
+.tort .beshs .besh2 .besh2txt .besh2text .besh2text2 {
+  font-size: 20px;
+}
+
+.tort .beshs .besh3 .besh3txt1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tort .beshs .besh3 .besh3text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+.tort .oltis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.tort .oltis .olti1 .oltitxt {
+  width: 250px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tort .oltis .olti1 .oltitxt .oltitext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -15px;
+}
+
+.tort .oltis .olti1 .oltitxt .oltitext .oltitext2 {
+  font-size: 20px;
+}
+
+.tort .oltis .olti2 .olti2txt {
+  width: 200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tort .oltis .olti2 .olti2txt .olti2text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -15px;
+}
+
+.tort .oltis .olti2 .olti2txt .olti2text .olti2text2 {
+  font-size: 20px;
+}
+
+.tort .oltis .olti3 .olti3txt1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tort .oltis .olti3 .olti3text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+.yetti {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.yetti .yetti1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.yetti .yetti1 .yetti2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.yetti .yetti1 .yetti2 .yetti3 {
+  margin-left: 20px;
+}
+
+.yetti .yetti1 .yetti2 .yetti3 .yetti3img1 {
+  height: 138px;
+}
+
+.yetti .yetti1 .yetti2 .yetti3 .yetti3img3 {
+  height: 138px;
+}
+
+.yetti .yetti1 .yetti1_2 {
+  width: 300px;
+  margin-left: 80px;
+}
+
+.yetti .yetti1 .yetti1_2 .yetti1_2link {
+  background-color: #1D1F2E;
+  width: 180px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.yetti .yetti1 .yetti1_2 .yetti1_2link .yettilink {
+  text-decoration: none;
+  color: white;
+}
+
+.yetti .yettitxt {
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.yetti .yettitxt .yettitxt2 {
+  font-size: 15px;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sakkiz {
+  margin-top: 80px;
+}
+
+.toqiz {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.toqiz .toqiztxt {
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.toqiz .toqiztxt .toqiztxt2 {
+  font-size: 15px;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toqiz .toqiz1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.toqiz .toqiz1 .toqiz1_1 {
+  width: 300px;
+}
+
+.on {
+  width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #1D1F2E;
+}
+
+.on .on1 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.on .on1 .ontxt {
+  width: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.on .on1 .ontxt .ontxt2 {
+  font-size: 15px;
+  width: 220px;
+  margin-left: 4px;
+  color: white;
+}
+
+.on .on1 .ontext .ontext1 {
+  color: white;
+}
+
+.on .on1 .oninput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.on .on1 .oninput .input {
+  border: solid;
+  border-color: gray;
+  border-width: 1px;
+  height: 30px;
+  padding-top: 10px;
+  padding-left: 12px;
+  color: white;
+  margin-right: 20px;
+  width: 350px;
+  text-decoration: none;
+}
+
+.on .on1 .oninput .oninputa {
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.on .on1 .oninput .oninputa .oninputa1 {
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.onbir {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.onbir .onbir1 {
+  width: 300px;
+}
+
+.onbir .onbir1 .onbir1txt {
+  height: 130px;
+}
+
+.onbir .onbir1 .onbir1p .inbir1p1 {
+  font-size: 12px;
+  color: gray;
+}
+
+.onbir .onbir2 .onbir2txt .onbir2txt1 {
+  font-weight: 900;
+  height: 30px;
+}
+
+.onbir .onbir2 .onbir2txt .onbir2txt2 {
+  font-size: 14px;
+  color: gray;
+}
+
+.onbir .onbir3 .onbir3p {
+  font-weight: 900;
+  height: 30px;
+}
+
+.onbir .onbir4 .onbir4txt .onbir4txt1 {
+  font-weight: 900;
+  height: 30px;
+}
+
+.onbir .onbir4 .onbir4txt4 {
+  height: 80px;
+}
+
+.onbir .onbir4 .onbir4txt6 .onbir4txt7 {
+  color: gray;
+  font-size: 12px;
+}
+/*# sourceMappingURL=code.css.map */

@@ -1,0 +1,874 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+body
+{
+    font-family: Karla;
+}
+.container
+{
+    width: 1336px;
+    margin: 0 auto;
+}
+.navbar
+{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    .img
+    {
+
+        width: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav 
+    {
+        display: flex;
+        width: 550px;
+        justify-content: space-between;
+
+        .nav-ul
+        {
+            display: flex;
+
+            .nav-li
+            {
+                list-style: none;
+
+                .li-a
+                {
+                    text-decoration: none;
+                    color: black;
+                    margin-left: 12px;
+                }
+            }
+        }
+    }
+
+    .nav-end
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .end 
+        {
+            margin-right: 12px;
+        }
+
+        .end-a
+        {
+            margin-right: 10px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.bir01
+{
+    background-image: url('IMG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .bir
+    {
+        width: 1000px;
+        margin: 0 auto;
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+        .bir1
+        {
+            width: 300px;
+            margin: 0 auto;
+            
+            .birp
+            {
+                width: 180px;
+                margin: 0 auto;
+                color: white;
+            }
+            
+            .birh1
+        {
+            width: 300px;
+            font-size: 60px;
+            margin: 10px auto;
+            color: white;
+        }
+        
+    }
+
+    .bir2
+    {
+
+        .bir2p
+        {
+            color: white;
+        }
+    }
+
+    .birlink
+    {
+        background-color: white;
+        width: 250px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .birlink1
+        {
+            text-decoration: none;
+            color: black;
+            font-weight: 900;
+            font-size: 20px;
+        }
+    }
+
+}
+}
+
+.ikki
+{
+  width: 800px;
+  margin: 80px auto;  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .ikkitxt
+  {
+      width: 500px;
+
+            .ikkispan
+            {
+                display: flex;
+                justify-content: center;
+            }
+  }
+
+  .ikki1txt
+  {
+      width: 600px;
+
+      .ikki1span
+      {
+          display: flex;
+          justify-content: center;
+      }
+  }
+
+  .ikki2txt1
+  {
+    color: #A25F4B;
+
+  }
+}
+
+.uch
+{
+    width: 1000px;
+    margin: 0 auto;
+
+    .uchtxt01
+    {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        .uchtxt03
+        {
+            font-size: 15px;
+            width: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+
+    .uchs
+    {
+        display: flex;
+        width: 920px;
+        margin: 0 auto;
+        margin-top: 20px;
+
+        .uch1 
+        {
+            margin-right: 12px;
+
+
+            .uchtxt 
+            {
+                width: 200px;
+                margin: 0 auto;
+
+                .uchtxt2
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        .uch2 
+        {
+
+            .uch2txt
+            {
+                width: 200px;
+                margin: 0 auto;
+
+                .uch2text
+                {
+                    margin-top: -12px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .uch2txt2
+                    {
+                        font-size: 20px;
+                        color: #A25F4B;
+                        font-weight: 700;
+                        margin-right: 5px;
+                    }
+
+                    .uch2txt3
+                    {
+                        text-decoration: line-through;
+                        text-decoration-color: gray;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.tort
+{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    .torts
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 30px;
+
+
+        .tort1
+        {
+
+            .torttxt
+            {
+                width: 200px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                .torttext
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -15px;
+
+
+                    .torttext1
+                    {
+                        color: #A25F4B;
+                        font-size: 20px;
+                        font-weight: 700;
+                        margin-right: 5px;
+                    }
+
+                    .torttext2
+                    {
+                        text-decoration: line-through;
+                        text-decoration-color: gray;
+                    }
+                }
+            }
+        }
+
+        .tort2 
+        {
+
+            .tort2txt
+            {
+                width: 200px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                .tort2text
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -15px;
+
+
+                    .tort2text1
+                    {
+                        color: #A25F4B;
+                        font-size: 20px;
+                        font-weight: 700;
+                        margin-right: 5px;
+                    }
+
+                    .tort2text2
+                    {
+                        text-decoration: line-through;
+                        text-decoration-color: gray;
+                    }
+                }
+            }
+            
+        }
+
+
+        .tort3
+        {
+
+            .tort3txt1
+            {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .tort3text
+            {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                margin-top: -10px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .torttexts
+    {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        .torttexts2
+        {
+            font-size: 15px;
+            width: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+
+
+
+
+
+    .beshs
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 30px;
+
+
+        .besh1
+        {
+
+            .beshtxt
+            {
+                width: 200px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                .beshtext
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -15px;
+
+
+                    .beshtext2 
+                    {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        .besh2 
+        {
+
+            .besh2txt
+            {
+                width: 200px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                .besh2text
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -15px;
+
+
+                    .besh2text2
+                    {
+                        font-size: 20px;
+                    }
+                }
+            }
+            
+        }
+
+
+        .besh3
+        {
+
+            .besh3txt1
+            {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .besh3text
+            {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                margin-top: -10px;
+                font-size: 20px;
+            }
+        }
+    }
+
+
+
+    .oltis
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 30px;
+
+
+        .olti1
+        {
+
+            .oltitxt
+            {
+                width: 250px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                .oltitext
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -15px;
+
+
+                    .oltitext2 
+                    {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        .olti2 
+        {
+
+            .olti2txt
+            {
+                width: 200px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                .olti2text
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -15px;
+
+
+                    .olti2text2
+                    {
+                        font-size: 20px;
+                    }
+                }
+            }
+            
+        }
+
+
+        .olti3
+        {
+
+            .olti3txt1
+            {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .olti3text
+            {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                margin-top: -10px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.yetti
+{
+    width: 900px;
+    margin: 0 auto;
+
+
+    .yetti1
+    {
+        display: flex;
+
+
+        .yetti2
+        {
+            display: flex;
+
+            .yetti3
+            {
+                margin-left: 20px;
+
+                .yetti3img1
+                {
+                    height: 138px;
+                }
+
+                .yetti3img3
+                {
+                    height: 138px;
+                }
+            }
+        }
+
+
+        .yetti1_2
+        {
+            width: 300px;
+            margin-left: 80px;
+
+            .yetti1_2link
+            {
+                background-color: #1D1F2E;
+                width: 180px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .yettilink
+                {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .yettitxt
+    {
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        .yettitxt2
+        {
+            font-size: 15px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+
+}
+
+
+.sakkiz
+{
+    margin-top: 80px;
+}
+
+.toqiz
+{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    .toqiztxt
+    {
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        .toqiztxt2
+        {
+            font-size: 15px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .toqiz1
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        .toqiz1_1
+        {
+            width: 300px;
+        }
+    }
+}
+
+.on 
+{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #1D1F2E;
+
+    .on1
+    {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .ontxt
+        {
+            width: 280px;
+            display: flex;
+            align-items: center;
+            
+            .ontxt2
+            {
+                font-size: 15px;
+                width: 220px;
+                margin-left: 4px;
+                color: white;
+            }
+        }
+
+        .ontext
+        {
+
+            .ontext1
+            {
+                color: white;
+            }
+        }
+        
+
+        .oninput
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .input 
+            {
+                border: solid;
+                border-color: gray;
+                border-width: 1px;
+                height: 30px;
+                padding-top: 10px;
+                padding-left: 12px;
+                color: white;
+                margin-right: 20px;
+                width: 350px;
+                text-decoration: none;
+            }
+
+
+            .oninputa
+            {
+                background-color: white;
+                width: 150px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .oninputa1
+                {
+                    color: black;
+                    text-decoration: none;
+                    font-weight: 900;
+                }
+            }
+        }
+
+        
+    }
+
+    
+}
+
+.onbir
+{
+    // background-color: red;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    .onbir1
+    {
+        width: 300px;
+
+        .onbir1txt
+        {
+            height: 130px;
+        }
+
+        .onbir1p
+        {
+
+            .inbir1p1
+            {
+                font-size: 12px;
+                color: gray;
+            }
+        }
+    }
+
+
+    .onbir2
+    {
+
+        .onbir2txt
+        {
+
+            .onbir2txt1
+            {
+                font-weight: 900;
+                height: 30px;
+            }
+
+            .onbir2txt2
+            {
+                font-size: 14px;
+                color: gray;
+            }
+        }
+    }
+
+    .onbir3
+    {
+        .onbir3p
+        {
+            font-weight: 900;
+            height: 30px;
+        }
+    }
+
+    .onbir4
+    {
+
+        .onbir4txt
+        {
+
+            .onbir4txt1
+            {
+                font-weight: 900;
+                height: 30px;
+            }
+        }
+
+        .onbir4txt4
+        {
+            height: 80px;
+        }
+
+        .onbir4txt6
+        {
+
+            .onbir4txt7
+            {
+
+                color: gray;
+                font-size: 12px;
+            }
+        }
+    }
+}
